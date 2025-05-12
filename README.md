@@ -2,13 +2,11 @@
 
 Three small, dependency‑light tools that scratch common itches:
 
-| Script                | One‑liner purpose                                           | Key deps |
-|-----------------------|-------------------------------------------------------------|----------|
-| **link_checker.py**   | Crawl a site, print a directory‑tree of pages, and flag bad internal links. | `requests`, `beautifulsoup4`, `tqdm` |
-| **opml_to_markdown.py** | Turn an OPML file of RSS feeds into a share‑ready Markdown "starter pack". | *none* (stdlib only) |
-| **wordleconomics.py** | Rank Wordle opening guesses with aggregate, positional, and hybrid heuristics; optionally plot stats. | `numpy`, `matplotlib` |
-
-All code is Python 3.9+ and follows the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html).
+| Script                | One‑liner purpose                                           |
+|-----------------------|-------------------------------------------------------------|
+| **link_checker.py**   | Crawl a site, print a directory‑tree of pages, and flag bad internal links.  |
+| **opml_to_markdown.py** | Turn an OPML file of RSS feeds into a share‑ready Markdown "starter pack". |
+| **wordleconomics.py** | Rank Wordle opening guesses with aggregate, positional, and hybrid heuristics; optionally plot stats. |
 
 
 ## Quick install
