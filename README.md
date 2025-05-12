@@ -61,6 +61,9 @@ Common flags:
 
 ### Example
 
+<details>
+<summary>Click to expand sample output</summary>
+    
 ```
 Pages crawled: 1473 └── page=https://example.com/blog
 === Directory tree of visited pages ===
@@ -76,6 +79,7 @@ Pages crawled: 1473 └── page=https://example.com/blog
 🔗 https://example.com/missing (404)
    └── linked from: https://example.com/blog/index.html
 ```
+</details>
 
 
 ## opml_to_markdown: Convert OPML to a Share‑Ready RSS Starter Pack
@@ -198,6 +202,7 @@ candidate using three complementary heuristics:
 
 <details>
 <summary>Click to expand sample output</summary>
+
 ```bash
 $ python wordleconomics.py \
       --words /usr/share/dict/words \
