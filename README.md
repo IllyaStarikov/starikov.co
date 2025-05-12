@@ -2,7 +2,7 @@
 
 Three small, dependency‑light tools that scratch common itches:
 
-| Script                | One‑liner purpose                                           |
+| Script                | Purpose                                                     |
 |-----------------------|-------------------------------------------------------------|
 | **link_checker.py**   | Crawl a site, print a directory‑tree of pages, and flag bad internal links.  |
 | **opml_to_markdown.py** | Turn an OPML file of RSS feeds into a share‑ready Markdown "starter pack". |
